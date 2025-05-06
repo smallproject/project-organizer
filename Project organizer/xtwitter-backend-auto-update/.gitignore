@@ -1,0 +1,53 @@
+# General
+.DS_Store
+*.log
+*.env
+.env.*
+
+# Node (Frontend - React/Vite)
+node_modules/
+dist/
+.vite/
+
+# Java (Backend - Spring Boot)
+target/
+*.iml
+.idea/
+*.class
+*.jar
+*.war
+
+# VSCode & OS
+.vscode/
+Thumbs.db
+*.swp
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle (if used)
+.gradle/
+build/
+
+# PostgreSQL (optional: ignore backups or connection configs)
+*.pg_dump
+*.pgsql
+
+# IntelliJ
+*.iws
+*.ipr
+*.idea/
+
+# Logs
+logs/
+*.log
+*.out
+
+# Others
+*.bak
+*.tmp
